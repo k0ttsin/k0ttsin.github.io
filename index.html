@@ -108,6 +108,16 @@
     <div class="container">
         <div class="row about">
             <h1>About Me</h1>
+                <label class="switch">
+                    <input type="checkbox" onclick="Dark()">
+                    <span class="slider round"></span>
+                </label>
+                <script>
+                    function Dark(){
+                        var element= document.body;
+                        element.classList.toggle("darkmode");
+                }
+                </script>
                 <span>&#10218; Name : <i>Kaung Khant Zaw (k0ttsin) </i> &#10218;</span><br>
                 <span>&#10218; Phone : <i>+959401470547 </i>&#10218;</span><br>
                 <span>&#10218; Email : <i>k0ttsin@protonmail.com </i>&#10218;</span>
@@ -150,16 +160,7 @@
             <a href="https://www.facebook.com/i.love.ma.ma.somuch/"><i class="bi bi-facebook"></i></a> 
             <a href="mailto:k0ttsin@protonmail.com"><i class="bi bi-envelope-fill"></i></a>
             }
-            <label class="switch">
-                <input type="checkbox" onclick="Dark()">
-                <span class="slider round"></span>
-            </label>
-            <script>
-                function Dark(){
-                    var element= document.body;
-                    element.classList.toggle("darkmode");
-                }
-            </script>
+            
             </footer>
         </center>
     </div>
