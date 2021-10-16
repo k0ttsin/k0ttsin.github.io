@@ -107,6 +107,16 @@
     
     <div class="container">
         <h1>My Ebooks and Courses (Knowledge Sharing)</h1>
+        <label class="switch">
+                <input type="checkbox" onclick="Dark()">
+                <span class="slider round"></span>
+            </label>
+            <script>
+                function Dark(){
+                    var element= document.body;
+                    element.classList.toggle("darkmode");
+                }
+            </script>
         <div class="row">
             <span>&#9642; Linux Privilege Escalation and OS Hardening (Video) - <a href="https://usersdrive.com/u5i5lpa6tvnn.html">Download</a></span><br>
             <span>&#9642; 802.11 Python (Ebook) - <a href="https://www.mediafire.com/file/xsi4pr9q5a4odz3/802.11_Python.pdf/file">Download</a>(<a href="https://github.com/k0ttsin/802.11-Python">Sample Scripts</a>)</span><br>
@@ -124,16 +134,7 @@
             <a href="https://www.youtube.com/c/KaungKhantZaw"><i class="bi bi-youtube"></i></a>
             <a href="https://www.facebook.com/knowledgecc/"><i class="bi bi-facebook"></i></a>
             }
-            <label class="switch">
-                <input type="checkbox" onclick="Dark()">
-                <span class="slider round"></span>
-            </label>
-            <script>
-                function Dark(){
-                    var element= document.body;
-                    element.classList.toggle("darkmode");
-                }
-            </script>
+            
             </footer>
         </center>
     </div>
